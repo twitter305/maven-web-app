@@ -10,7 +10,8 @@
 </head>
 <body>
 <h1 align="center">Landmark Technology  --> Human Development Center</h1>
-<h1 align="center"> Welcome to Landmark Technology.......We have a demo on DevOps E Degree with Linux and AWS  on Saturday Sept 5, 2020 at 4pm EST for our new batch. 
+<h1 align="center"> Welcome to Landmark Technology.......We have a demo on DevOps E Degree Master Class with Linux. Python and AWS  on 
+	Saturday March 27, 2021 at 8am EST for our new batch. 
 	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Infrastructures. 
 	</h1>
 	<h1 align="center" >JESUS IS LORD</h1>
