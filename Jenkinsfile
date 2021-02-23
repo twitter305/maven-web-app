@@ -4,7 +4,7 @@ def mavenHome = tool name: "maven3.6.3"
     
     stage("1. git clone")
     {
-       git credentialsId: 'Github_credentials', url: 'https://github.com/myLandmakTechnology/maven-web-app'
+       git credentialsId: 'GitCredentials', url: 'https://github.com/myLandmakTechnology/maven-web-app'
     }
     
     stage("2. Build")
@@ -13,7 +13,7 @@ def mavenHome = tool name: "maven3.6.3"
 
         // bat mvn clean package  - for winows OS
     }
-    stage('3. Sonar')
+    stage('3. SonarQubeReport')
     {
          sh "${mavenHome}/bin/mvn sonar:sonar"
     }
