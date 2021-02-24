@@ -1,6 +1,6 @@
 node 
 {
-def mavenHome = tool name: 'maven3.6.3'
+def mavenHome = tool name: 'maven3.6.2'
 stage('1. CodeClone') 
 {
 git credentialsId: 'Github_credentials', url: 'https://github.com/myLandmakTechnology/maven-web-app.git'
@@ -17,7 +17,7 @@ stage('4.UploadNexus')
 {
 sh "${mavenHome}/bin/mvn deploy"
 }
-stage('5. Approval') 
+stage('5. ApprovalGate') 
 {
 echo "Approved. Ready for deployment"
 }
